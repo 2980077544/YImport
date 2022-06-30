@@ -1,5 +1,8 @@
 # YImport
 为导入一个html文件插入元素内提供一个简单的解决方案
+
+***demo在底部。***
+
 # 安装
 下载``jQuery``、仓库的两个js文件后并入你的项目。
 
@@ -93,6 +96,15 @@ UploadImport(dom);
 解析一个import元素（如果要解析iframe内的请考虑此功能）。
 
 接受一个``原生js的Dom元素``。
-
-## 远景
+# Demo
+```html
+<import
+   id="view"
+   src="view.html"
+   js="view.js" />
+<script>
+UploadImports();
+</script>
+```
+# 远景
 本项目可能还有不完善的地方，欢迎issues和pull!
